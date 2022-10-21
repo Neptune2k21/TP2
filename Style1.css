@@ -1,0 +1,15 @@
+/*feuille de style pour le Tp2
+realisatio : Mamadou Lamine
+Derniere modification : 18/10/2022
+..............................................*/
+
+*{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+fieldset{border-style: solid;background-color: rgb(43, 61, 78); column-count: auto;}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    input{width: 200px; margin: 10px; padding: 8px;}
+    body{padding: 12px; margin: auto; width: auto;}
+    p{border: violet; background-color: aqua;}
+    

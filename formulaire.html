@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="Style1.css"/>
+    <title>Document2</title>
+    </head>
+<body>
+    <h1 style="color: rebeccapurple ; background-color: red "<center>Tp 2</center></h1>
+    <h2>Formulaires</h2>
+    <form action="https://html-reponse.usertest.fr/reponse.php" method="post">
+        <fieldset>
+    <p>Le service des transports d’une municipalité envisage de remanier l’offre de transports en commun. A cette fin,une enquête est menée auprès des usagers à l’aide du formulaire ci-dessous.</p>
+   
+        
+        
+        <fieldset>
+        <legend>Information personnelles</legend>
+        
+        
+    </select><p></p>
+        <label for="genre">Genre</label>  
+        <input type="radio" name="genre">M 
+            <input type="radio" name="genre">F<p>
+                <strong>Classe d'âge</strong>
+                <label for="age"></label>
+                
+                <select name="age" id="age">
+                    <option > : Classe d'âge d'au moins 20 ans
+                        <option value="Au moins 20 ans">entre 20 et 30 ans "</option>
+                        <option value="plus de 30 ans">plus de 30 ans</option> 
+    
+                    </option> : 18
+                    ................................
+                </select><p></p>
+                <label for="socio">Groupe socioprofessionnel:</label>
+                <select name="gsp" id="socio" id="socio">
+                    <option > : Artisans, commmercant et chef d'entreprise
+                        <option value="Artisans">Artisans</option>
+                        <option value="Retaite">Retraite</option>
+                        <option value="Chef d'entreprise">Chef d'entreprise</option>
+    
+                    </option> : 
+                    ................................
+                </select><p></p>
+               <strong>Code postale :</strong>
+               <label for="Code postal"></label>
+               <input type="value" maxlength="5" name="cpostal" value="49000"> 
+               <select name="Selectionnez votre code postale" id="size">
+                    <option > : 40097
+                        <option value="40098">40098</option>
+                        <option value="40099">40099</option>
+                        <option value="48598">48598</option>
+                        <option value="49000">49000</option>
+                    ................................
+                </select><p></p>
+    
+    
+    
+    
+            </fieldset>     
+    
+    <fieldset>
+        <legend>Information sur le trajet</legend>
+        <strong>Vehicule principale pour le trajet :</strong>
+                <label for="vehicule"></label>
+                <input type="text" name="trajet">
+                <select name="Votre vehicule pour le trajet" id="size">
+                    <option > : piéton
+                        <option value="Bicyclette">Velo</option>
+                        <option value="Deux roues motorisés">Deux roues</option>
+                        <option value="Automobile">Auto</option>
+                        <option value="Transports en commun">Train, tram, bus, métro</option>
+    
+                    </option> : 
+                    ................................
+                </select><p></p>
+                <strong> Distance domicile-tavail:</strong>
+                <select name="Distance du trajet" id="size">
+                    <option > : Inferieure à 1 Km
+    
+                    </option> : 
+                    ................................
+                </select><p></p>
+    </fieldset>
+    
+    
+      
+            <legend>Axes d'amélioration des transports en commun </legend>
+            <p>Cochez les principaux obstacles à la mobilité en transport en commun (plusieurs réponses possibles) </p>
+    
+            <p>
+                <input type="radio" name="size" id="size_1" value="Temps de trajet trop longs"/>
+                <label for="size_1">Temps de trajet trop long </label>
+            </p>
+            <p>
+                <input type="radio" name="size" id="size_2" value="Respect des horaires"/>
+                <label for="size_2">Respect des horaires </label>
+            </p>
+            <p>
+                <input type="radio" name="size" id="size_3" value="Amplitude horaire trop limitée"/>
+                <label for="size_3">Amplitude horaire trop limitée </label>
+            </p>
+            <p>
+                <input type="radio" name="size_4" id="size_4" value="Trop forte affluence">
+                <label for="size_4">Trop forte affluence</label>
+            </p>
+            <p>
+                <input type="radio" name="size_5" id="size_5" value="Tarif trop élevés">
+                <label for="size_5">Tarif trop élevés</label>
+            </p>
+            <p>Remarques ou observations sur le réseau de transport commun</p>
+            <textarea name="user_message" id="msg" cols="30" rows="3"></textarea><br/>
+           <p>Merci de votre participation </p>
+            <input type="submit" value="Enregistrer les données"> <input type="reset" value="Ne pas soummetre">
+        </fieldset>
+    </form>
+    
+    
+    
+
+</body>
+</html>
+
+
+
+
